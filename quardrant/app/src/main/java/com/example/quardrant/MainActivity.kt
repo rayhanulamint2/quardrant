@@ -107,7 +107,7 @@ fun parts(title: String,para:String,modifier:Modifier = Modifier){
 }
 
 @Preview(showBackground = true,
-    showSystemUi = true)
+    showSystemUi = false)
 @Composable
 fun GreetingPreview() {
     QuardrantTheme {
